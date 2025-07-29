@@ -20,21 +20,6 @@ $(document).ready(function () {
     hideAnimationOnEnd('#pre-loader2');
     hideAnimationOnEnd('#pre-loader');
 
-    //change logo
-    
-    const queryString = window.location.search;
-    const urlParams = new URLSearchParams(queryString);
-    const theme = urlParams.get('theme')
-    if(theme == 'light'){
-        $('body').removeClass('theme-dark') 
-        $('body').addClass('theme-light')  
-        $('.theme-light .logo').attr('src','./assets/images/personaCV-logo-black.png') 
-    }
-
-    if($('body').hasClass('theme-light')){
-        $('.theme-light .logo').attr('src','./assets/images/personaCV-logo-black.png')
-    }
-
 
     function listIdsMenu(entry) {
         let menuArray = ['#home', '#about', '#portfolio', '#resume', '#contact']
@@ -90,26 +75,26 @@ $(document).ready(function () {
     })
 
     //change theme on click button theme
-    $('.dark').click(function () {
-        $('body').toggleClass('theme-light');
-        $('body').toggleClass('theme-dark');
-        $(this).toggleClass('btn-light');
-        $(this).toggleClass('btn-dark');
-        console.log($(this).text())
-        if ($(this).text() == 'Dark Theme') {
-            $(this).text('Light Theme');
+    // $('.dark').click(function () {
+    //     $('body').toggleClass('theme-light');
+    //     $('body').toggleClass('theme-dark');
+    //     $(this).toggleClass('btn-light');
+    //     $(this).toggleClass('btn-dark');
+    //     console.log($(this).text())
+    //     if ($(this).text() == 'Dark Theme') {
+    //         $(this).text('Light Theme');
 
-            $('.logo').attr('src', './assets/images/personaCV-logo.png');
-        }
-        else {
-            $(this).text('Dark Theme');
-            $('.logo').attr('src', './assets/images/personaCV-logo-black.png');
+    //         $('.logo').attr('src', './assets/images/logo.png');
+    //     }
+    //     else {
+    //         $(this).text('Dark Theme');
+    //         $('.logo').attr('src', './assets/images/logo-black.png');
 
-        }
+    //     }
 
-        if (window.innerWidth < 992)
-            closeMenu()
-    })
+    //     if (window.innerWidth < 992)
+    //         closeMenu()
+    // })
 
     //menu icon mobile on click
     $('#menu a').click(function () {

@@ -10,17 +10,17 @@
   font-display: swap; }
 
 /* variables and helper class section */
-/* line 82, personaCV/assets/scss/_variables.scss */
+/* line 82, resume/assets/scss/_variables.scss */
 html,
 body {
   font-family: "Roboto", sans-serif;
   text-rendering: optimizeLegibility; }
-  /* line 86, personaCV/assets/scss/_variables.scss */
+  /* line 86, resume/assets/scss/_variables.scss */
   html.no-overflow,
   body.no-overflow {
     overflow: hidden; }
 
-/* line 90, personaCV/assets/scss/_variables.scss */
+/* line 90, resume/assets/scss/_variables.scss */
 h1,
 h2,
 h3,
@@ -28,7 +28,7 @@ h4 {
   font-family: "Poppins", sans-serif;
   font-weight: 700; }
 
-/* line 97, personaCV/assets/scss/_variables.scss */
+/* line 97, resume/assets/scss/_variables.scss */
 p,
 a,
 span,
@@ -41,47 +41,47 @@ label {
   font-weight: 400; }
 
 @media (min-width: 1024px) {
-  /* line 108, personaCV/assets/scss/_variables.scss */
+  /* line 108, resume/assets/scss/_variables.scss */
   .section {
     min-height: 100vh; } }
 
-/* line 114, personaCV/assets/scss/_variables.scss */
+/* line 114, resume/assets/scss/_variables.scss */
 .section.active-section {
   opacity: 1;
   visibility: visible;
   min-height: 100vh;
   height: 100%; }
 
-/* line 120, personaCV/assets/scss/_variables.scss */
+/* line 120, resume/assets/scss/_variables.scss */
 html body .hide {
   opacity: 0;
   visibility: hidden;
   display: none;
   height: 0; }
 
-/* line 126, personaCV/assets/scss/_variables.scss */
+/* line 126, resume/assets/scss/_variables.scss */
 html body .show {
   opacity: 1;
   visibility: visible;
   display: block; }
 
-/* line 131, personaCV/assets/scss/_variables.scss */
+/* line 131, resume/assets/scss/_variables.scss */
 .ronded {
   border-radius: 30px; }
 
-/* line 134, personaCV/assets/scss/_variables.scss */
+/* line 134, resume/assets/scss/_variables.scss */
 .cards {
   max-height: 400px; }
-  /* line 136, personaCV/assets/scss/_variables.scss */
+  /* line 136, resume/assets/scss/_variables.scss */
   .cards img {
     object-fit: cover;
     max-height: 400px; }
 
-/* line 141, personaCV/assets/scss/_variables.scss */
+/* line 141, resume/assets/scss/_variables.scss */
 .opacity {
   opacity: 0; }
 
-/* line 145, personaCV/assets/scss/_variables.scss */
+/* line 145, resume/assets/scss/_variables.scss */
 ul {
   list-style: none;
   padding: 0; }
@@ -103,13 +103,13 @@ ul {
     transform: scaleY(1) scaleX(1); } }
 
 @-ms-keyframes unfoldIn {
-  /* line 3, personaCV/assets/scss/_animation.scss */
+  /* line 3, resume/assets/scss/_animation.scss */
   0% {
     transform: scaleY(0.005) scaleX(0); }
-  /* line 6, personaCV/assets/scss/_animation.scss */
+  /* line 6, resume/assets/scss/_animation.scss */
   50% {
     transform: scaleY(0.005) scaleX(1); }
-  /* line 9, personaCV/assets/scss/_animation.scss */
+  /* line 9, resume/assets/scss/_animation.scss */
   100% {
     transform: scaleY(1) scaleX(1); } }
 
@@ -134,10 +134,10 @@ ul {
     box-shadow: 0 0 0 12px rgba(255, 255, 255, 0); } }
 
 @-ms-keyframes circle {
-  /* line 15, personaCV/assets/scss/_animation.scss */
+  /* line 15, resume/assets/scss/_animation.scss */
   from {
     box-shadow: 0 0 0 0px #a644e7; }
-  /* line 18, personaCV/assets/scss/_animation.scss */
+  /* line 18, resume/assets/scss/_animation.scss */
   to {
     box-shadow: 0 0 0 12px rgba(255, 255, 255, 0); } }
 
@@ -164,13 +164,13 @@ ul {
     transform: scaleY(0.005) scaleX(0); } }
 
 @-ms-keyframes unfoldOut {
-  /* line 25, personaCV/assets/scss/_animation.scss */
+  /* line 25, resume/assets/scss/_animation.scss */
   0% {
     transform: scaleY(1) scaleX(1); }
-  /* line 28, personaCV/assets/scss/_animation.scss */
+  /* line 28, resume/assets/scss/_animation.scss */
   50% {
     transform: scaleY(0.005) scaleX(1); }
-  /* line 31, personaCV/assets/scss/_animation.scss */
+  /* line 31, resume/assets/scss/_animation.scss */
   100% {
     transform: scaleY(0.005) scaleX(0); } }
 
@@ -195,10 +195,10 @@ ul {
     transform: scale(1); } }
 
 @-ms-keyframes zoomIn {
-  /* line 38, personaCV/assets/scss/_animation.scss */
+  /* line 38, resume/assets/scss/_animation.scss */
   0% {
     transform: scale(0); }
-  /* line 41, personaCV/assets/scss/_animation.scss */
+  /* line 41, resume/assets/scss/_animation.scss */
   100% {
     transform: scale(1); } }
 
@@ -221,10 +221,10 @@ ul {
     transform: scale(0); } }
 
 @-ms-keyframes zoomOut {
-  /* line 48, personaCV/assets/scss/_animation.scss */
+  /* line 48, resume/assets/scss/_animation.scss */
   0% {
     transform: scale(1); }
-  /* line 51, personaCV/assets/scss/_animation.scss */
+  /* line 51, resume/assets/scss/_animation.scss */
   100% {
     transform: scale(0); } }
 
@@ -259,18 +259,18 @@ ul {
     transform: scale(1.15); } }
 
 @-ms-keyframes imageAnimation {
-  /* line 58, personaCV/assets/scss/_animation.scss */
+  /* line 58, resume/assets/scss/_animation.scss */
   0% {
     animation-timing-function: ease-in;
     transform: scale(1); }
-  /* line 62, personaCV/assets/scss/_animation.scss */
+  /* line 62, resume/assets/scss/_animation.scss */
   25% {
     transform: scale(1.05);
     animation-timing-function: ease-out; }
-  /* line 66, personaCV/assets/scss/_animation.scss */
+  /* line 66, resume/assets/scss/_animation.scss */
   50% {
     transform: scale(1.1); }
-  /* line 69, personaCV/assets/scss/_animation.scss */
+  /* line 69, resume/assets/scss/_animation.scss */
   100% {
     transform: scale(1.15); } }
 
@@ -307,16 +307,16 @@ ul {
     opacity: 0; } }
 
 @-ms-keyframes fadeout {
-  /* line 74, personaCV/assets/scss/_animation.scss */
+  /* line 74, resume/assets/scss/_animation.scss */
   0% {
     opacity: 1; }
-  /* line 77, personaCV/assets/scss/_animation.scss */
+  /* line 77, resume/assets/scss/_animation.scss */
   25% {
     opacity: 1; }
-  /* line 80, personaCV/assets/scss/_animation.scss */
+  /* line 80, resume/assets/scss/_animation.scss */
   40% {
     opacity: 1; }
-  /* line 83, personaCV/assets/scss/_animation.scss */
+  /* line 83, resume/assets/scss/_animation.scss */
   100% {
     opacity: 0; } }
 
@@ -343,10 +343,10 @@ ul {
     transform: rotate(360deg); } }
 
 @-ms-keyframes rotateLeft {
-  /* line 88, personaCV/assets/scss/_animation.scss */
+  /* line 88, resume/assets/scss/_animation.scss */
   0% {
     transform: rotate(0deg); }
-  /* line 91, personaCV/assets/scss/_animation.scss */
+  /* line 91, resume/assets/scss/_animation.scss */
   100% {
     transform: rotate(360deg); } }
 
@@ -364,7 +364,7 @@ ul {
     opacity: 1;
     height: var(--h, 2px); } }
 
-/* line 107, personaCV/assets/scss/_animation.scss */
+/* line 107, resume/assets/scss/_animation.scss */
 .zoom {
   animation: zoom 12s alternate infinite;
   position: absolute;
@@ -373,7 +373,7 @@ ul {
   width: 110%;
   height: 110%; }
 
-/* line 113, personaCV/assets/scss/_animation.scss */
+/* line 113, resume/assets/scss/_animation.scss */
 .fade-in {
   animation: fadeIn ease 1s;
   -webkit-animation: fadeIn ease 1s;
@@ -406,33 +406,33 @@ ul {
     opacity: 1; } }
 
 @-ms-keyframes fadeIn {
-  /* line 141, personaCV/assets/scss/_animation.scss */
+  /* line 141, resume/assets/scss/_animation.scss */
   0% {
     opacity: 0; }
-  /* line 142, personaCV/assets/scss/_animation.scss */
+  /* line 142, resume/assets/scss/_animation.scss */
   100% {
     opacity: 1; } }
 
-/* line 3, personaCV/assets/scss/_components.scss */
+/* line 3, resume/assets/scss/_components.scss */
 .social-links a i {
   font-size: 26px;
   margin-right: 20px;
   margin-bottom: 20px; }
 
-/* line 58, personaCV/assets/scss/_variables.scss */
+/* line 58, resume/assets/scss/_variables.scss */
 .theme-light .social-links a {
   color: #000; }
 
-/* line 58, personaCV/assets/scss/_variables.scss */
+/* line 58, resume/assets/scss/_variables.scss */
 .theme-dark .social-links a {
   color: var(--bs-white); }
 
 @media (min-width: 1024px) {
-  /* line 2, personaCV/assets/scss/_components.scss */
+  /* line 2, resume/assets/scss/_components.scss */
   .social-links a {
     margin-right: 10px; } }
 
-/* line 17, personaCV/assets/scss/_components.scss */
+/* line 17, resume/assets/scss/_components.scss */
 .dark {
   width: 132px;
   z-index: 999;
@@ -443,39 +443,39 @@ ul {
   -o-transition: 0.2s;
   transition: 0.2s; }
   @media (min-width: 320px) {
-    /* line 17, personaCV/assets/scss/_components.scss */
+    /* line 17, resume/assets/scss/_components.scss */
     .dark {
       opacity: 0;
       visibility: hidden;
       left: 10px; } }
   @media (min-width: 1100px) {
-    /* line 17, personaCV/assets/scss/_components.scss */
+    /* line 17, resume/assets/scss/_components.scss */
     .dark {
       right: 10px;
       top: 24px;
       opacity: 1;
       visibility: visible; } }
 
-/* line 38, personaCV/assets/scss/_components.scss */
+/* line 38, resume/assets/scss/_components.scss */
 .pickColor {
   position: fixed;
   z-index: 999; }
   @media (min-width: 320px) {
-    /* line 38, personaCV/assets/scss/_components.scss */
+    /* line 38, resume/assets/scss/_components.scss */
     .pickColor {
       opacity: 0;
       visibility: hidden;
       left: 10px;
       top: 60px; } }
   @media (min-width: 1100px) {
-    /* line 38, personaCV/assets/scss/_components.scss */
+    /* line 38, resume/assets/scss/_components.scss */
     .pickColor {
       left: 155px;
       top: 29px;
       opacity: 1;
       visibility: visible; } }
 
-/* line 54, personaCV/assets/scss/_components.scss */
+/* line 54, resume/assets/scss/_components.scss */
 .settings {
   z-index: 999;
   position: fixed;
@@ -485,10 +485,10 @@ ul {
   cursor: pointer;
   transform: translateX(-220px);
   transition: all 1s; }
-  /* line 63, personaCV/assets/scss/_components.scss */
+  /* line 63, resume/assets/scss/_components.scss */
   .settings.move-right {
     transform: translateX(0px); }
-  /* line 66, personaCV/assets/scss/_components.scss */
+  /* line 66, resume/assets/scss/_components.scss */
   .settings .control {
     background-color: #cdcdcd;
     position: fixed;
@@ -496,7 +496,7 @@ ul {
     height: 62px;
     left: -3px;
     top: 12px; }
-  /* line 74, personaCV/assets/scss/_components.scss */
+  /* line 74, resume/assets/scss/_components.scss */
   .settings .fa-cogs {
     position: fixed;
     left: 219px;
@@ -507,11 +507,11 @@ ul {
     padding: 16px;
     border-left: 1px solid #b1b1b1; }
   @media (max-width: 1023px) {
-    /* line 54, personaCV/assets/scss/_components.scss */
+    /* line 54, resume/assets/scss/_components.scss */
     .settings {
       display: none; } }
 
-/* line 88, personaCV/assets/scss/_components.scss */
+/* line 88, resume/assets/scss/_components.scss */
 .iframe-loading {
   background-color: #222222;
   position: fixed;
@@ -519,7 +519,7 @@ ul {
   left: 0;
   top: 0;
   bottom: 0; }
-  /* line 95, personaCV/assets/scss/_components.scss */
+  /* line 95, resume/assets/scss/_components.scss */
   .iframe-loading .fa-spinner {
     color: #fff;
     font-size: 40px;
@@ -529,11 +529,11 @@ ul {
     -o-animation: rotateLeft 2s  infinite;
     -ms-animation: rotateLeft 2s  infinite;
     z-index: 0; }
-  /* line 101, personaCV/assets/scss/_components.scss */
+  /* line 101, resume/assets/scss/_components.scss */
   .iframe-loading iframe {
     z-index: 1; }
 
-/* line 107, personaCV/assets/scss/_components.scss */
+/* line 107, resume/assets/scss/_components.scss */
 #modal-container {
   position: fixed;
   display: table;
@@ -543,49 +543,49 @@ ul {
   left: 0;
   transform: scale(0);
   z-index: 10; }
-  /* line 116, personaCV/assets/scss/_components.scss */
+  /* line 116, resume/assets/scss/_components.scss */
   #modal-container iframe {
     height: 50vh; }
 
-/* line 120, personaCV/assets/scss/_components.scss */
+/* line 120, resume/assets/scss/_components.scss */
 #modal-container.play {
   cursor: pointer;
   transform: scaleY(0.01) scaleX(0);
   animation: unfoldIn 1s cubic-bezier(0.165, 0.84, 0.44, 1) forwards; }
 
-/* line 125, personaCV/assets/scss/_components.scss */
+/* line 125, resume/assets/scss/_components.scss */
 #modal-container.play .modal-background .modal {
   transform: scale(0);
   animation: zoomIn 0.5s 0.8s cubic-bezier(0.165, 0.84, 0.44, 1) forwards; }
 
-/* line 129, personaCV/assets/scss/_components.scss */
+/* line 129, resume/assets/scss/_components.scss */
 #modal-container.play.out {
   transform: scale(1);
   animation: unfoldOut 1s 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) forwards; }
 
-/* line 133, personaCV/assets/scss/_components.scss */
+/* line 133, resume/assets/scss/_components.scss */
 #modal-container.play.out .modal-background .modal {
   animation: zoomOut 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards; }
 
-/* line 136, personaCV/assets/scss/_components.scss */
+/* line 136, resume/assets/scss/_components.scss */
 html.modal-active,
 body.modal-active {
   overflow: hidden; }
 
-/* line 140, personaCV/assets/scss/_components.scss */
+/* line 140, resume/assets/scss/_components.scss */
 #modal-container .modal-background {
   display: table-cell;
   background: rgba(0, 0, 0, 0.8);
   text-align: center;
   vertical-align: middle; }
-  /* line 145, personaCV/assets/scss/_components.scss */
+  /* line 145, resume/assets/scss/_components.scss */
   #modal-container .modal-background .fa-times {
     color: #fff;
     position: absolute;
     top: 40px;
     right: 40px; }
 
-/* line 152, personaCV/assets/scss/_components.scss */
+/* line 152, resume/assets/scss/_components.scss */
 #modal-container .modal-background .modal {
   background: white;
   display: inline-block;
@@ -598,22 +598,22 @@ body.modal-active {
   margin-left: auto;
   margin-right: auto; }
   @media (min-width: 1024px) {
-    /* line 152, personaCV/assets/scss/_components.scss */
+    /* line 152, resume/assets/scss/_components.scss */
     #modal-container .modal-background .modal {
       max-width: 50vw; } }
 
-/* line 167, personaCV/assets/scss/_components.scss */
+/* line 167, resume/assets/scss/_components.scss */
 #modal-container .modal-background .modal h2 {
   font-size: 25px;
   line-height: 25px;
   margin-bottom: 15px; }
 
-/* line 172, personaCV/assets/scss/_components.scss */
+/* line 172, resume/assets/scss/_components.scss */
 #modal-container .modal-background .modal p {
   font-size: 18px;
   line-height: 22px; }
 
-/* line 176, personaCV/assets/scss/_components.scss */
+/* line 176, resume/assets/scss/_components.scss */
 #modal-container .modal-background .modal .modal-svg {
   position: absolute;
   top: 0;
@@ -622,21 +622,21 @@ body.modal-active {
   width: 100%;
   border-radius: 3px; }
 
-/* line 184, personaCV/assets/scss/_components.scss */
+/* line 184, resume/assets/scss/_components.scss */
 #modal-container .modal-background .modal .modal-svg rect {
   stroke: #fff;
   stroke-width: 2px;
   stroke-dasharray: 778;
   stroke-dashoffset: 778; }
 
-/* line 193, personaCV/assets/scss/_components.scss */
+/* line 193, resume/assets/scss/_components.scss */
 .parallax-window {
   height: 100vh;
   width: 100%;
   position: absolute;
   left: 0; }
 
-/* line 199, personaCV/assets/scss/_components.scss */
+/* line 199, resume/assets/scss/_components.scss */
 .parallax {
   /* Set a specific height */
   min-height: 500px;
@@ -648,10 +648,10 @@ body.modal-active {
   width: 735px;
   height: 100vh; }
 
-/* line 211, personaCV/assets/scss/_components.scss */
+/* line 211, resume/assets/scss/_components.scss */
 .parallax-full-cover {
   /* The image used */
-  background-image: url("../assets/images/template-cv-man-personaCV-1920-900.jpg");
+  background-image: url("../assets/images/template-cv-man-resume-1920-900.jpg");
   /* Set a specific height */
   min-height: 500px;
   /* Create the parallax scrolling effect */
@@ -666,7 +666,7 @@ body.modal-active {
   left: 0;
   right: 0; }
 
-/* line 233, personaCV/assets/scss/_components.scss */
+/* line 233, resume/assets/scss/_components.scss */
 .btn-grad {
   background: linear-gradient(to right, #a644e7, #061700);
   margin: 10px;
@@ -680,14 +680,14 @@ body.modal-active {
   border-radius: 10px;
   display: block; }
 
-/* line 247, personaCV/assets/scss/_components.scss */
+/* line 247, resume/assets/scss/_components.scss */
 .btn-grad:hover {
   background-position: right center;
   /* change the direction of the change here */
   color: #fff;
   text-decoration: none; }
 
-/* line 254, personaCV/assets/scss/_components.scss */
+/* line 254, resume/assets/scss/_components.scss */
 .dsn-button {
   position: relative;
   padding: 20px 30px;
@@ -698,20 +698,20 @@ body.modal-active {
   text-decoration: none;
   white-space: nowrap;
   background-color: #9edb84; }
-  /* line 58, personaCV/assets/scss/_variables.scss */
+  /* line 58, resume/assets/scss/_variables.scss */
   .theme-light .dsn-button {
     color: #000; }
-  /* line 58, personaCV/assets/scss/_variables.scss */
+  /* line 58, resume/assets/scss/_variables.scss */
   .theme-dark .dsn-button {
     color: #fff; }
 
-/* line 268, personaCV/assets/scss/_components.scss */
+/* line 268, resume/assets/scss/_components.scss */
 .dsn-button:hover .dsn-border-rdu,
 .dsn-button:hover .dsn-border {
   -webkit-clip-path: polygon(0% 0%, 0% 100%, 94% 100%, 0 0, 5% 0, 100% 100%, 100% 100%, 100% 0%);
   clip-path: polygon(0% 0%, 0% 100%, 94% 100%, 0 0, 5% 0, 100% 100%, 100% 100%, 100% 0%); }
 
-/* line 273, personaCV/assets/scss/_components.scss */
+/* line 273, resume/assets/scss/_components.scss */
 .dsn-border-rdu,
 .dsn-border {
   position: absolute;
@@ -731,13 +731,13 @@ body.modal-active {
   z-index: 1;
   border-color: #a644e7; }
 
-/* line 294, personaCV/assets/scss/_components.scss */
+/* line 294, resume/assets/scss/_components.scss */
 .circles {
   margin-bottom: -10px; }
-  /* line 296, personaCV/assets/scss/_components.scss */
+  /* line 296, resume/assets/scss/_components.scss */
   .circles span {
     margin: 0; }
-  /* line 299, personaCV/assets/scss/_components.scss */
+  /* line 299, resume/assets/scss/_components.scss */
   .circles .circle {
     margin: 6px 6px 20px;
     display: inline-block;
@@ -746,7 +746,7 @@ body.modal-active {
     line-height: 1.2;
     min-height: 134px;
     min-width: 100px; }
-    /* line 307, personaCV/assets/scss/_components.scss */
+    /* line 307, resume/assets/scss/_components.scss */
     .circles .circle span.inner-circle {
       display: inherit;
       /* add this */
@@ -759,10 +759,10 @@ body.modal-active {
       background-color: rgba(0, 0, 0, 0);
       margin-top: 0;
       vertical-align: top; }
-  /* line 321, personaCV/assets/scss/_components.scss */
+  /* line 321, resume/assets/scss/_components.scss */
   .circles .circle canvas {
     vertical-align: top; }
-  /* line 325, personaCV/assets/scss/_components.scss */
+  /* line 325, resume/assets/scss/_components.scss */
   .circles .circle strong {
     position: absolute;
     top: 30px;
@@ -771,33 +771,33 @@ body.modal-active {
     text-align: center;
     line-height: 40px;
     font-size: 30px; }
-    /* line 58, personaCV/assets/scss/_variables.scss */
+    /* line 58, resume/assets/scss/_variables.scss */
     .theme-light .circles .circle strong {
       color: var(--bs-body-color); }
-    /* line 58, personaCV/assets/scss/_variables.scss */
+    /* line 58, resume/assets/scss/_variables.scss */
     .theme-dark .circles .circle strong {
       color: var(--bs-white); }
-  /* line 338, personaCV/assets/scss/_components.scss */
+  /* line 338, resume/assets/scss/_components.scss */
   .circles .circle strong i {
     font-style: normal;
     font-size: 0.6em;
     font-weight: normal; }
-  /* line 344, personaCV/assets/scss/_components.scss */
+  /* line 344, resume/assets/scss/_components.scss */
   .circles .circle span {
     display: block;
     color: #fff;
     margin-top: 12px; }
 
-/* line 352, personaCV/assets/scss/_components.scss */
+/* line 352, resume/assets/scss/_components.scss */
 .title-under {
   margin: auto; }
-  /* line 58, personaCV/assets/scss/_variables.scss */
+  /* line 58, resume/assets/scss/_variables.scss */
   .theme-light .title-under {
     color: #000; }
-  /* line 58, personaCV/assets/scss/_variables.scss */
+  /* line 58, resume/assets/scss/_variables.scss */
   .theme-dark .title-under {
     color: var(--bs-white); }
-  /* line 357, personaCV/assets/scss/_components.scss */
+  /* line 357, resume/assets/scss/_components.scss */
   .title-under:after {
     content: "";
     width: 100%;
@@ -807,12 +807,12 @@ body.modal-active {
     opacity: 0.8;
     margin: -1px 0 0 0px; }
   @media (min-width: 600px) {
-    /* line 352, personaCV/assets/scss/_components.scss */
+    /* line 352, resume/assets/scss/_components.scss */
     .title-under {
       width: max-content; } }
 
 /* loading layer site  */
-/* line 3, personaCV/assets/scss/_loader.scss */
+/* line 3, resume/assets/scss/_loader.scss */
 #pre-loader {
   margin: 0;
   padding: 0;
@@ -896,7 +896,7 @@ body.modal-active {
   100% {
     color: #3bb2d0; } }
 
-/* line 112, personaCV/assets/scss/_loader.scss */
+/* line 112, resume/assets/scss/_loader.scss */
 .e-loadholder {
   position: absolute;
   top: 50%;
@@ -912,7 +912,7 @@ body.modal-active {
   border-radius: 120px;
   box-sizing: border-box; }
 
-/* line 127, personaCV/assets/scss/_loader.scss */
+/* line 127, resume/assets/scss/_loader.scss */
 .e-loadholder:after {
   position: absolute;
   top: 50%;
@@ -928,7 +928,7 @@ body.modal-active {
   transform-origin: center;
   z-index: 0; }
 
-/* line 142, personaCV/assets/scss/_loader.scss */
+/* line 142, resume/assets/scss/_loader.scss */
 .e-loadholder:after {
   width: 100px;
   height: 200%;
@@ -937,7 +937,7 @@ body.modal-active {
   -o-animation: outerRotate2 30s infinite linear;
   animation: outerRotate2 30s infinite linear; }
 
-/* line 150, personaCV/assets/scss/_loader.scss */
+/* line 150, resume/assets/scss/_loader.scss */
 .e-loadholder .m-loader {
   position: absolute;
   top: 50%;
@@ -957,7 +957,7 @@ body.modal-active {
   z-index: 20;
   text-transform: uppercase; }
 
-/* line 169, personaCV/assets/scss/_loader.scss */
+/* line 169, resume/assets/scss/_loader.scss */
 .e-loadholder .m-loader:after {
   position: absolute;
   top: 50%;
@@ -973,7 +973,7 @@ body.modal-active {
   transform-origin: center;
   z-index: -1; }
 
-/* line 184, personaCV/assets/scss/_loader.scss */
+/* line 184, resume/assets/scss/_loader.scss */
 .e-loadholder .m-loader:after {
   width: 100px;
   height: 106%;
@@ -982,7 +982,7 @@ body.modal-active {
   -o-animation: outerRotate1 15s infinite linear;
   animation: outerRotate1 15s infinite linear; }
 
-/* line 192, personaCV/assets/scss/_loader.scss */
+/* line 192, resume/assets/scss/_loader.scss */
 .e-loadholder .m-loader .e-text {
   font-size: 14px;
   font-size: 1.4rem;
@@ -1008,7 +1008,7 @@ body.modal-active {
   box-sizing: border-box;
   z-index: 20; }
 
-/* line 217, personaCV/assets/scss/_loader.scss */
+/* line 217, resume/assets/scss/_loader.scss */
 .e-loadholder .m-loader .e-text:before,
 .e-loadholder .m-loader .e-text:after {
   position: absolute;
@@ -1025,7 +1025,7 @@ body.modal-active {
   transform-origin: center;
   z-index: -1; }
 
-/* line 233, personaCV/assets/scss/_loader.scss */
+/* line 233, resume/assets/scss/_loader.scss */
 .e-loadholder .m-loader .e-text:before {
   width: 110%;
   height: 40px;
@@ -1034,7 +1034,7 @@ body.modal-active {
   -o-animation: outerRotate2 3.5s infinite linear;
   animation: outerRotate2 3.5s infinite linear; }
 
-/* line 241, personaCV/assets/scss/_loader.scss */
+/* line 241, resume/assets/scss/_loader.scss */
 .e-loadholder .m-loader .e-text:after {
   width: 40px;
   height: 110%;
@@ -1043,7 +1043,7 @@ body.modal-active {
   -o-animation: outerRotate1 8s infinite linear;
   animation: outerRotate1 8s infinite linear; }
 
-/* line 250, personaCV/assets/scss/_loader.scss */
+/* line 250, resume/assets/scss/_loader.scss */
 #particleCanvas-White {
   position: absolute;
   top: 50%;
@@ -1057,7 +1057,7 @@ body.modal-active {
   height: 50%;
   opacity: 0.1; }
 
-/* line 264, personaCV/assets/scss/_loader.scss */
+/* line 264, resume/assets/scss/_loader.scss */
 #particleCanvas-Blue {
   position: absolute;
   top: 50%;
@@ -1070,7 +1070,7 @@ body.modal-active {
   width: 300px;
   height: 300px; }
 
-/* line 277, personaCV/assets/scss/_loader.scss */
+/* line 277, resume/assets/scss/_loader.scss */
 .fade-in-image {
   animation: fadeIn 3s;
   -webkit-animation: fadeIn 3s;
@@ -1090,7 +1090,7 @@ body.modal-active {
   100% {
     opacity: 1; } }
 
-/* line 301, personaCV/assets/scss/_loader.scss */
+/* line 301, resume/assets/scss/_loader.scss */
 .move-left {
   animation: translateLeft 2.5s;
   animation-timing-function: ease-in;
@@ -1099,7 +1099,7 @@ body.modal-active {
   -o-animation: translateLeft 2.5s;
   -ms-animation: translateLeft 2.5s; }
 
-/* line 309, personaCV/assets/scss/_loader.scss */
+/* line 309, resume/assets/scss/_loader.scss */
 .move-bottom {
   animation: translateBottom 1.5s;
   animation-timing-function: ease-in;
@@ -1133,10 +1133,10 @@ body.modal-active {
     transform: translateX(-150%); } }
 
 @-ms-keyframes translateLeft {
-  /* line 354, personaCV/assets/scss/_loader.scss */
+  /* line 354, resume/assets/scss/_loader.scss */
   0% {
     transform: translateX(0%); }
-  /* line 357, personaCV/assets/scss/_loader.scss */
+  /* line 357, resume/assets/scss/_loader.scss */
   100% {
     transform: translateX(-150%); } }
 
@@ -1165,14 +1165,14 @@ body.modal-active {
     transform: translateY(150%); } }
 
 @-ms-keyframes translateLeft {
-  /* line 399, personaCV/assets/scss/_loader.scss */
+  /* line 399, resume/assets/scss/_loader.scss */
   0% {
     transform: translateY(0%); }
-  /* line 402, personaCV/assets/scss/_loader.scss */
+  /* line 402, resume/assets/scss/_loader.scss */
   100% {
     transform: translateY(150%); } }
 
-/* line 8, personaCV/assets/scss/_loader-reflection.scss */
+/* line 8, resume/assets/scss/_loader-reflection.scss */
 #pre-loader2 {
   margin: 0;
   padding: 0;
@@ -1188,74 +1188,74 @@ body.modal-active {
   -moz-animation: fadeout 3s  forwards;
   -o-animation: fadeout 3s  forwards;
   -ms-animation: fadeout 3s  forwards; }
-  /* line 19, personaCV/assets/scss/_loader-reflection.scss */
+  /* line 19, resume/assets/scss/_loader-reflection.scss */
   #pre-loader2 div,
   #pre-loader2 :after {
     position: absolute;
     bottom: 50%;
     left: 50%; }
-  /* line 26, personaCV/assets/scss/_loader-reflection.scss */
+  /* line 26, resume/assets/scss/_loader-reflection.scss */
   #pre-loader2 .loader:nth-child(2) {
     transform: scaleY(-1); }
-    /* line 29, personaCV/assets/scss/_loader-reflection.scss */
+    /* line 29, resume/assets/scss/_loader-reflection.scss */
     #pre-loader2 .loader:nth-child(2):after {
       margin-left: -10em;
       width: 20em;
       height: 7.5em;
       background: linear-gradient(#000 1.25em, rgba(0, 0, 0, 0.3));
       content: ""; }
-  /* line 38, personaCV/assets/scss/_loader-reflection.scss */
+  /* line 38, resume/assets/scss/_loader-reflection.scss */
   #pre-loader2 .bar {
     bottom: 0;
     width: 1.25em;
     height: 6.25em;
     animation: bar 3s cubic-bezier(0.81, 0.04, 0.4, 0.7) infinite; }
-    /* line 47, personaCV/assets/scss/_loader-reflection.scss */
+    /* line 47, resume/assets/scss/_loader-reflection.scss */
     #pre-loader2 .bar:nth-child(1) {
       margin-left: -6.25em;
       background: #666666;
       animation-delay: 0ms; }
-    /* line 47, personaCV/assets/scss/_loader-reflection.scss */
+    /* line 47, resume/assets/scss/_loader-reflection.scss */
     #pre-loader2 .bar:nth-child(2) {
       margin-left: -5em;
       background: #5b5b5b;
       animation-delay: 50ms; }
-    /* line 47, personaCV/assets/scss/_loader-reflection.scss */
+    /* line 47, resume/assets/scss/_loader-reflection.scss */
     #pre-loader2 .bar:nth-child(3) {
       margin-left: -3.75em;
       background: #4f4f4f;
       animation-delay: 100ms; }
-    /* line 47, personaCV/assets/scss/_loader-reflection.scss */
+    /* line 47, resume/assets/scss/_loader-reflection.scss */
     #pre-loader2 .bar:nth-child(4) {
       margin-left: -2.5em;
       background: #444444;
       animation-delay: 150ms; }
-    /* line 47, personaCV/assets/scss/_loader-reflection.scss */
+    /* line 47, resume/assets/scss/_loader-reflection.scss */
     #pre-loader2 .bar:nth-child(5) {
       margin-left: -1.25em;
       background: #393939;
       animation-delay: 200ms; }
-    /* line 47, personaCV/assets/scss/_loader-reflection.scss */
+    /* line 47, resume/assets/scss/_loader-reflection.scss */
     #pre-loader2 .bar:nth-child(6) {
       margin-left: 0em;
       background: #2d2d2d;
       animation-delay: 250ms; }
-    /* line 47, personaCV/assets/scss/_loader-reflection.scss */
+    /* line 47, resume/assets/scss/_loader-reflection.scss */
     #pre-loader2 .bar:nth-child(7) {
       margin-left: 1.25em;
       background: #222222;
       animation-delay: 300ms; }
-    /* line 47, personaCV/assets/scss/_loader-reflection.scss */
+    /* line 47, resume/assets/scss/_loader-reflection.scss */
     #pre-loader2 .bar:nth-child(8) {
       margin-left: 2.5em;
       background: #171717;
       animation-delay: 350ms; }
-    /* line 47, personaCV/assets/scss/_loader-reflection.scss */
+    /* line 47, resume/assets/scss/_loader-reflection.scss */
     #pre-loader2 .bar:nth-child(9) {
       margin-left: 3.75em;
       background: #0b0b0b;
       animation-delay: 400ms; }
-    /* line 47, personaCV/assets/scss/_loader-reflection.scss */
+    /* line 47, resume/assets/scss/_loader-reflection.scss */
     #pre-loader2 .bar:nth-child(10) {
       margin-left: 5em;
       background: black;
@@ -1269,7 +1269,7 @@ body.modal-active {
     transform: none; } }
 
 /* menu of site*/
-/* line 2, personaCV/assets/scss/_menu.scss */
+/* line 2, resume/assets/scss/_menu.scss */
 .menu-icon {
   position: fixed;
   left: 0px;
@@ -1283,18 +1283,18 @@ body.modal-active {
   -o-transition: 0.5s;
   transition: 0.5s; }
   @media (max-width: 991.98px) {
-    /* line 2, personaCV/assets/scss/_menu.scss */
+    /* line 2, resume/assets/scss/_menu.scss */
     .menu-icon {
       opacity: 1;
       visibility: visible; } }
-  /* line 58, personaCV/assets/scss/_variables.scss */
+  /* line 58, resume/assets/scss/_variables.scss */
   .theme-light .menu-icon .fas {
     color: #000; }
-  /* line 58, personaCV/assets/scss/_variables.scss */
+  /* line 58, resume/assets/scss/_variables.scss */
   .theme-dark .menu-icon .fas {
     color: var(--bs-white); }
 
-/* line 24, personaCV/assets/scss/_menu.scss */
+/* line 24, resume/assets/scss/_menu.scss */
 .close {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
@@ -1306,7 +1306,7 @@ body.modal-active {
   transform: translateX(calc(0));
   visibility: hidden;
   opacity: 0; }
-  /* line 35, personaCV/assets/scss/_menu.scss */
+  /* line 35, resume/assets/scss/_menu.scss */
   .close.active {
     -moz-transform: translateX(calc(300px - 47px));
     -webkit-transform: translateX(calc(300px - 47px));
@@ -1316,7 +1316,7 @@ body.modal-active {
     visibility: visible;
     opacity: 1; }
 
-/* line 45, personaCV/assets/scss/_menu.scss */
+/* line 45, resume/assets/scss/_menu.scss */
 #fixed-menu-left {
   width: 300px;
   position: fixed;
@@ -1331,23 +1331,23 @@ body.modal-active {
   -o-transition: 0.5s;
   transition: 0.5s;
   z-index: 9; }
-  /* line 60, personaCV/assets/scss/_menu.scss */
+  /* line 60, resume/assets/scss/_menu.scss */
   #fixed-menu-left a {
     font-family: "Roboto", sans-serif;
     font-size: 19px;
     text-decoration: none;
     position: relative; }
-    /* line 58, personaCV/assets/scss/_variables.scss */
+    /* line 58, resume/assets/scss/_variables.scss */
     .theme-light #fixed-menu-left a {
       color: #000; }
-    /* line 58, personaCV/assets/scss/_variables.scss */
+    /* line 58, resume/assets/scss/_variables.scss */
     .theme-dark #fixed-menu-left a {
       color: var(--bs-white); }
-  /* line 69, personaCV/assets/scss/_menu.scss */
+  /* line 69, resume/assets/scss/_menu.scss */
   #fixed-menu-left .logo {
     margin-bottom: 30px;
     width: 221px; }
-  /* line 73, personaCV/assets/scss/_menu.scss */
+  /* line 73, resume/assets/scss/_menu.scss */
   #fixed-menu-left #menu {
     display: flex;
     justify-content: center;
@@ -1355,10 +1355,10 @@ body.modal-active {
     width: 100%;
     box-shadow: 0px 1px 2px 2px rgba(0, 0, 0, 0.1);
     flex-direction: column; }
-  /* line 81, personaCV/assets/scss/_menu.scss */
+  /* line 81, resume/assets/scss/_menu.scss */
   #fixed-menu-left li:hover a {
     position: relative; }
-  /* line 84, personaCV/assets/scss/_menu.scss */
+  /* line 84, resume/assets/scss/_menu.scss */
   #fixed-menu-left li:hover a:after {
     content: "";
     width: 100%;
@@ -1368,7 +1368,7 @@ body.modal-active {
     opacity: 0.8;
     margin: 0;
     position: absolute; }
-  /* line 94, personaCV/assets/scss/_menu.scss */
+  /* line 94, resume/assets/scss/_menu.scss */
   #fixed-menu-left li a.active:after {
     content: "";
     width: 100%;
@@ -1378,7 +1378,7 @@ body.modal-active {
     opacity: 0.8;
     margin: 0;
     position: absolute; }
-  /* line 104, personaCV/assets/scss/_menu.scss */
+  /* line 104, resume/assets/scss/_menu.scss */
   #fixed-menu-left li:hover a.animation-link:after {
     animation: hover-effect 0.7s;
     -webkit-animation: hover-effect 0.7s;
@@ -1386,7 +1386,7 @@ body.modal-active {
     -o-animation: hover-effect 0.7s;
     -ms-animation: hover-effect 0.7s; }
   @media (max-width: 991.98px) {
-    /* line 45, personaCV/assets/scss/_menu.scss */
+    /* line 45, resume/assets/scss/_menu.scss */
     #fixed-menu-left {
       width: calc(300px);
       -moz-transform: translateX(-300px);
@@ -1396,13 +1396,13 @@ body.modal-active {
       transform: translateX(-300px);
       background: rgba(0, 0, 0, 0.04);
       max-height: 100vh; }
-      /* line 58, personaCV/assets/scss/_variables.scss */
+      /* line 58, resume/assets/scss/_variables.scss */
       .theme-light #fixed-menu-left {
         background-color: #fff; }
-      /* line 58, personaCV/assets/scss/_variables.scss */
+      /* line 58, resume/assets/scss/_variables.scss */
       .theme-dark #fixed-menu-left {
         background-color: #000; }
-      /* line 123, personaCV/assets/scss/_menu.scss */
+      /* line 123, resume/assets/scss/_menu.scss */
       #fixed-menu-left.active {
         opacity: 1;
         visibility: visible;
@@ -1411,18 +1411,18 @@ body.modal-active {
         -ms-transform: translateX(0);
         -o-transform: translateX(0);
         transform: translateX(0); }
-        /* line 131, personaCV/assets/scss/_menu.scss */
+        /* line 131, resume/assets/scss/_menu.scss */
         #fixed-menu-left.active ~ #fixed-right {
           overflow: hidden; } }
 
-/* line 137, personaCV/assets/scss/_menu.scss */
+/* line 137, resume/assets/scss/_menu.scss */
 #fixed-right {
   width: 100%;
   float: right;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
-  /* line 147, personaCV/assets/scss/_menu.scss */
+  /* line 147, resume/assets/scss/_menu.scss */
   #fixed-right.active {
     -moz-transform: translateX(300px);
     -webkit-transform: translateX(300px);
@@ -1430,7 +1430,7 @@ body.modal-active {
     -o-transform: translateX(300px);
     transform: translateX(300px); }
   @media (min-width: 992px) {
-    /* line 137, personaCV/assets/scss/_menu.scss */
+    /* line 137, resume/assets/scss/_menu.scss */
     #fixed-right {
       width: calc(100% - 300px);
       left: 300px;
@@ -1461,71 +1461,71 @@ body.modal-active {
     width: 100%; } }
 
 @-ms-keyframes hover-effect {
-  /* line 198, personaCV/assets/scss/_menu.scss */
+  /* line 198, resume/assets/scss/_menu.scss */
   0% {
     width: 0; }
-  /* line 201, personaCV/assets/scss/_menu.scss */
+  /* line 201, resume/assets/scss/_menu.scss */
   100% {
     width: 100%; } }
 
 /* Home section */
-/* line 2, personaCV/assets/scss/_home.scss */
+/* line 2, resume/assets/scss/_home.scss */
 #home {
   overflow: hidden; }
-  /* line 5, personaCV/assets/scss/_home.scss */
+  /* line 5, resume/assets/scss/_home.scss */
   #home .fa-play-circle {
     cursor: pointer;
     font-size: 47px; }
-    /* line 58, personaCV/assets/scss/_variables.scss */
+    /* line 58, resume/assets/scss/_variables.scss */
     .theme-light #home .fa-play-circle {
       color: #000; }
-    /* line 58, personaCV/assets/scss/_variables.scss */
+    /* line 58, resume/assets/scss/_variables.scss */
     .theme-dark #home .fa-play-circle {
       color: #fff; }
-  /* line 12, personaCV/assets/scss/_home.scss */
+  /* line 12, resume/assets/scss/_home.scss */
   #home #personal-info {
     z-index: 1;
     padding: 14px; }
-    /* line 58, personaCV/assets/scss/_variables.scss */
+    /* line 58, resume/assets/scss/_variables.scss */
     .theme-light #home #personal-info p {
       color: #000; }
-    /* line 58, personaCV/assets/scss/_variables.scss */
+    /* line 58, resume/assets/scss/_variables.scss */
     .theme-dark #home #personal-info p {
       color: #fff; }
     @media (min-widht: 1024px) {
-      /* line 12, personaCV/assets/scss/_home.scss */
+      /* line 12, resume/assets/scss/_home.scss */
       #home #personal-info {
         padding: 0px; } }
-  /* line 24, personaCV/assets/scss/_home.scss */
+  /* line 24, resume/assets/scss/_home.scss */
   #home #personal-photo {
     max-height: 962px; }
     @media (max-width: 575px) {
-      /* line 24, personaCV/assets/scss/_home.scss */
+      /* line 24, resume/assets/scss/_home.scss */
       #home #personal-photo {
         max-height: 70vh; } }
-  /* line 30, personaCV/assets/scss/_home.scss */
+  /* line 30, resume/assets/scss/_home.scss */
   #home h1 {
     font-size: 45px; }
-    /* line 58, personaCV/assets/scss/_variables.scss */
+    /* line 58, resume/assets/scss/_variables.scss */
     .theme-light #home h1 {
       color: #000; }
-    /* line 58, personaCV/assets/scss/_variables.scss */
+    /* line 58, resume/assets/scss/_variables.scss */
     .theme-dark #home h1 {
       color: #fff; }
     @media (max-width: 575px) {
-      /* line 30, personaCV/assets/scss/_home.scss */
+      /* line 30, resume/assets/scss/_home.scss */
       #home h1 {
         font-size: calc(20px + 6vw); } }
-  /* line 39, personaCV/assets/scss/_home.scss */
+  /* line 39, resume/assets/scss/_home.scss */
   #home h2 {
     font-size: 23px; }
-    /* line 58, personaCV/assets/scss/_variables.scss */
+    /* line 58, resume/assets/scss/_variables.scss */
     .theme-light #home h2 {
       color: #000; }
-    /* line 58, personaCV/assets/scss/_variables.scss */
+    /* line 58, resume/assets/scss/_variables.scss */
     .theme-dark #home h2 {
       color: #fff; }
-    /* line 44, personaCV/assets/scss/_home.scss */
+    /* line 44, resume/assets/scss/_home.scss */
     #home h2:after {
       content: "";
       width: 139px;
@@ -1533,7 +1533,7 @@ body.modal-active {
       background-color: #a644e7;
       display: block;
       opacity: 0.8; }
-  /* line 53, personaCV/assets/scss/_home.scss */
+  /* line 53, resume/assets/scss/_home.scss */
   #home:after {
     content: "";
     width: 100%;
@@ -1542,22 +1542,22 @@ body.modal-active {
     position: absolute;
     top: 0;
     left: 0; }
-    /* line 58, personaCV/assets/scss/_variables.scss */
+    /* line 58, resume/assets/scss/_variables.scss */
     .theme-light #home:after {
       background-color: rgba(255, 255, 255, 0.45); }
-    /* line 58, personaCV/assets/scss/_variables.scss */
+    /* line 58, resume/assets/scss/_variables.scss */
     .theme-dark #home:after {
       background-color: rgba(0, 0, 0, 0.45); }
 
-/* line 58, personaCV/assets/scss/_variables.scss */
+/* line 58, resume/assets/scss/_variables.scss */
 .theme-light main {
   background-color: #fff; }
 
-/* line 58, personaCV/assets/scss/_variables.scss */
+/* line 58, resume/assets/scss/_variables.scss */
 .theme-dark main {
   background-color: #000; }
 
-/* line 73, personaCV/assets/scss/_home.scss */
+/* line 73, resume/assets/scss/_home.scss */
 .stage {
   width: 100%;
   height: 100%;
@@ -1565,7 +1565,7 @@ body.modal-active {
   display: -ms-flexbox;
   display: flex; }
 
-/* line 80, personaCV/assets/scss/_home.scss */
+/* line 80, resume/assets/scss/_home.scss */
 .wrapper {
   position: relative;
   color: #fff;
@@ -1577,7 +1577,7 @@ body.modal-active {
   padding-right: 0.36rem;
   padding-bottom: 0.2rem; }
 
-/* line 92, personaCV/assets/scss/_home.scss */
+/* line 92, resume/assets/scss/_home.scss */
 .sides {
   position: absolute;
   width: 100%;
@@ -1586,12 +1586,12 @@ body.modal-active {
   left: 0;
   overflow: hidden; }
 
-/* line 100, personaCV/assets/scss/_home.scss */
+/* line 100, resume/assets/scss/_home.scss */
 .sides .side {
   position: absolute;
   background: #fff; }
 
-/* line 104, personaCV/assets/scss/_home.scss */
+/* line 104, resume/assets/scss/_home.scss */
 .sides .side:nth-child(1) {
   top: 0;
   left: 0;
@@ -1603,7 +1603,7 @@ body.modal-active {
   animation: side-top ease 6s;
   animation-delay: 2s; }
 
-/* line 115, personaCV/assets/scss/_home.scss */
+/* line 115, resume/assets/scss/_home.scss */
 .sides .side:nth-child(2) {
   top: 0;
   right: 0;
@@ -1615,7 +1615,7 @@ body.modal-active {
   animation: side-right ease 6s;
   animation-delay: 2s; }
 
-/* line 126, personaCV/assets/scss/_home.scss */
+/* line 126, resume/assets/scss/_home.scss */
 .sides .side:nth-child(3) {
   left: 0;
   bottom: 0;
@@ -1627,7 +1627,7 @@ body.modal-active {
   animation: side-bottom ease 6s;
   animation-delay: 2s; }
 
-/* line 137, personaCV/assets/scss/_home.scss */
+/* line 137, resume/assets/scss/_home.scss */
 .sides .side:nth-child(4) {
   top: 0;
   left: 0;
@@ -1639,12 +1639,12 @@ body.modal-active {
   animation: side-left ease 6s;
   animation-delay: 2s; }
 
-/* line 148, personaCV/assets/scss/_home.scss */
+/* line 148, resume/assets/scss/_home.scss */
 .text {
   position: relative;
   font-size: 59px; }
 
-/* line 152, personaCV/assets/scss/_home.scss */
+/* line 152, resume/assets/scss/_home.scss */
 .text--backing {
   opacity: 1; }
 
@@ -1789,41 +1789,41 @@ body.modal-active {
     transform: translateY(-101%); } }
 
 /* #about section */
-/* line 3, personaCV/assets/scss/_about.scss */
+/* line 3, resume/assets/scss/_about.scss */
 #about {
   position: relative; }
-  /* line 5, personaCV/assets/scss/_about.scss */
+  /* line 5, resume/assets/scss/_about.scss */
   #about #personal-photo {
     border-top: 10px solid #a644e7;
     border-left: 10px solid #a644e7; }
-  /* line 10, personaCV/assets/scss/_about.scss */
+  /* line 10, resume/assets/scss/_about.scss */
   #about #personal-intro h3 {
     color: #a644e7; }
-  /* line 13, personaCV/assets/scss/_about.scss */
+  /* line 13, resume/assets/scss/_about.scss */
   #about #personal-intro strong, #about #personal-intro p > i {
     color: #a644e7; }
-  /* line 17, personaCV/assets/scss/_about.scss */
+  /* line 17, resume/assets/scss/_about.scss */
   #about #personal-intro p {
     font-size: var(--bs-body-font-size); }
-    /* line 58, personaCV/assets/scss/_variables.scss */
+    /* line 58, resume/assets/scss/_variables.scss */
     .theme-dark #about #personal-intro p {
       color: #bbb; }
-    /* line 22, personaCV/assets/scss/_about.scss */
+    /* line 22, resume/assets/scss/_about.scss */
     #about #personal-intro p a {
       text-decoration: none; }
-      /* line 58, personaCV/assets/scss/_variables.scss */
+      /* line 58, resume/assets/scss/_variables.scss */
       .theme-dark #about #personal-intro p a {
         color: #bbb; }
   @media (min-width: 320px) {
-    /* line 9, personaCV/assets/scss/_about.scss */
+    /* line 9, resume/assets/scss/_about.scss */
     #about #personal-intro {
       padding: 20px;
       max-width: inherit; } }
   @media (min-width: 1135px) {
-    /* line 9, personaCV/assets/scss/_about.scss */
+    /* line 9, resume/assets/scss/_about.scss */
     #about #personal-intro {
       max-width: 50%; } }
-  /* line 37, personaCV/assets/scss/_about.scss */
+  /* line 37, resume/assets/scss/_about.scss */
   #about:after {
     content: "";
     width: 100%;
@@ -1833,13 +1833,13 @@ body.modal-active {
     top: 0;
     z-index: -1;
     left: 0; }
-    /* line 58, personaCV/assets/scss/_variables.scss */
+    /* line 58, resume/assets/scss/_variables.scss */
     .theme-light #about:after {
       background-color: #fff; }
-    /* line 58, personaCV/assets/scss/_variables.scss */
+    /* line 58, resume/assets/scss/_variables.scss */
     .theme-dark #about:after {
       background-color: #000; }
-  /* line 50, personaCV/assets/scss/_about.scss */
+  /* line 50, resume/assets/scss/_about.scss */
   #about:before {
     content: "";
     content: "";
@@ -1850,94 +1850,94 @@ body.modal-active {
     z-index: -1;
     left: 0;
     transform: translateX(-300px); }
-    /* line 58, personaCV/assets/scss/_variables.scss */
+    /* line 58, resume/assets/scss/_variables.scss */
     .theme-light #about:before {
       background-color: #fff; }
-    /* line 58, personaCV/assets/scss/_variables.scss */
+    /* line 58, resume/assets/scss/_variables.scss */
     .theme-dark #about:before {
       background-color: #000; }
 
 /* #portfolio section css for gallery*/
-/* line 2, personaCV/assets/scss/_gallery.scss */
+/* line 2, resume/assets/scss/_gallery.scss */
 .gallery {
   flex-wrap: wrap; }
-  /* line 4, personaCV/assets/scss/_gallery.scss */
+  /* line 4, resume/assets/scss/_gallery.scss */
   .gallery .item {
     display: flex; }
-    /* line 6, personaCV/assets/scss/_gallery.scss */
+    /* line 6, resume/assets/scss/_gallery.scss */
     .gallery .item > div {
       margin: 10px;
       position: relative;
       overflow: hidden; }
-    /* line 11, personaCV/assets/scss/_gallery.scss */
+    /* line 11, resume/assets/scss/_gallery.scss */
     .gallery .item img {
       width: 100%;
       position: relative;
       transition: transform 0.5s ease; }
-    /* line 17, personaCV/assets/scss/_gallery.scss */
+    /* line 17, resume/assets/scss/_gallery.scss */
     .gallery .item:hover img {
       transform: scale(1.12); }
 
-/* line 58, personaCV/assets/scss/_variables.scss */
+/* line 58, resume/assets/scss/_variables.scss */
 .theme-light #elastic_grid_demo #porfolio-nav a.filter {
   color: #000; }
 
-/* line 58, personaCV/assets/scss/_variables.scss */
+/* line 58, resume/assets/scss/_variables.scss */
 .theme-dark #elastic_grid_demo #porfolio-nav a.filter {
   color: #fff; }
 
-/* line 31, personaCV/assets/scss/_gallery.scss */
+/* line 31, resume/assets/scss/_gallery.scss */
 #elastic_grid_demo #porfolio-nav ul#portfolio-filter li.current a {
   color: #fff; }
 
 @media (max-width: 1022px) {
-  /* line 36, personaCV/assets/scss/_gallery.scss */
+  /* line 36, resume/assets/scss/_gallery.scss */
   .top {
     padding-top: 0 !important; }
-  /* line 39, personaCV/assets/scss/_gallery.scss */
+  /* line 39, resume/assets/scss/_gallery.scss */
   .gallery .item {
     max-width: 100%; } }
 
 /* #portfolio section */
-/* line 2, personaCV/assets/scss/_portfolio.scss */
+/* line 2, resume/assets/scss/_portfolio.scss */
 #portfolio {
   position: relative; }
-  /* line 58, personaCV/assets/scss/_variables.scss */
+  /* line 58, resume/assets/scss/_variables.scss */
   .theme-light #portfolio h3, .theme-light #portfolio h2, .theme-light #portfolio h4 {
     color: #000; }
-  /* line 58, personaCV/assets/scss/_variables.scss */
+  /* line 58, resume/assets/scss/_variables.scss */
   .theme-dark #portfolio h3, .theme-dark #portfolio h2, .theme-dark #portfolio h4 {
     color: #fff; }
-  /* line 58, personaCV/assets/scss/_variables.scss */
+  /* line 58, resume/assets/scss/_variables.scss */
   .theme-light #portfolio p {
     color: var(--bs-body-color); }
-  /* line 58, personaCV/assets/scss/_variables.scss */
+  /* line 58, resume/assets/scss/_variables.scss */
   .theme-dark #portfolio p {
     color: var(--bs-white); }
-  /* line 15, personaCV/assets/scss/_portfolio.scss */
+  /* line 15, resume/assets/scss/_portfolio.scss */
   #portfolio ul {
     list-style: disc outside none; }
-    /* line 58, personaCV/assets/scss/_variables.scss */
+    /* line 58, resume/assets/scss/_variables.scss */
     .theme-light #portfolio ul {
       color: var(--bs-body-color); }
-    /* line 58, personaCV/assets/scss/_variables.scss */
+    /* line 58, resume/assets/scss/_variables.scss */
     .theme-dark #portfolio ul {
       color: var(--bs-white); }
-    /* line 21, personaCV/assets/scss/_portfolio.scss */
+    /* line 21, resume/assets/scss/_portfolio.scss */
     #portfolio ul li {
       display: list-item; }
-      /* line 58, personaCV/assets/scss/_variables.scss */
+      /* line 58, resume/assets/scss/_variables.scss */
       .theme-light #portfolio ul li {
         color: var(--bs-body-color); }
-      /* line 58, personaCV/assets/scss/_variables.scss */
+      /* line 58, resume/assets/scss/_variables.scss */
       .theme-dark #portfolio ul li {
         color: var(--bs-white); }
-  /* line 29, personaCV/assets/scss/_portfolio.scss */
+  /* line 29, resume/assets/scss/_portfolio.scss */
   #portfolio section {
     max-width: 1400px;
     margin: 0 auto;
     padding: 20px; }
-  /* line 34, personaCV/assets/scss/_portfolio.scss */
+  /* line 34, resume/assets/scss/_portfolio.scss */
   #portfolio:after {
     content: "";
     width: 100%;
@@ -1947,13 +1947,13 @@ body.modal-active {
     top: 0;
     z-index: -1;
     left: 0; }
-    /* line 58, personaCV/assets/scss/_variables.scss */
+    /* line 58, resume/assets/scss/_variables.scss */
     .theme-light #portfolio:after {
       background-color: #fff; }
-    /* line 58, personaCV/assets/scss/_variables.scss */
+    /* line 58, resume/assets/scss/_variables.scss */
     .theme-dark #portfolio:after {
       background-color: #000; }
-  /* line 47, personaCV/assets/scss/_portfolio.scss */
+  /* line 47, resume/assets/scss/_portfolio.scss */
   #portfolio:before {
     content: "";
     content: "";
@@ -1964,22 +1964,22 @@ body.modal-active {
     z-index: -1;
     left: 0;
     transform: translateX(-300px); }
-    /* line 58, personaCV/assets/scss/_variables.scss */
+    /* line 58, resume/assets/scss/_variables.scss */
     .theme-light #portfolio:before {
       background-color: #fff; }
-    /* line 58, personaCV/assets/scss/_variables.scss */
+    /* line 58, resume/assets/scss/_variables.scss */
     .theme-dark #portfolio:before {
       background-color: #000; }
 
 /* #blog section */
-/* line 8, personaCV/assets/scss/_resume.scss */
+/* line 8, resume/assets/scss/_resume.scss */
 #resume {
   position: relative;
   min-height: inherit; }
-  /* line 11, personaCV/assets/scss/_resume.scss */
+  /* line 11, resume/assets/scss/_resume.scss */
   #resume .top {
     margin-bottom: 60px; }
-  /* line 14, personaCV/assets/scss/_resume.scss */
+  /* line 14, resume/assets/scss/_resume.scss */
   #resume:after {
     content: "";
     width: 100%;
@@ -1989,13 +1989,13 @@ body.modal-active {
     top: 0;
     z-index: -1;
     left: 0; }
-    /* line 58, personaCV/assets/scss/_variables.scss */
+    /* line 58, resume/assets/scss/_variables.scss */
     .theme-light #resume:after {
       background-color: #fff; }
-    /* line 58, personaCV/assets/scss/_variables.scss */
+    /* line 58, resume/assets/scss/_variables.scss */
     .theme-dark #resume:after {
       background-color: #000; }
-  /* line 27, personaCV/assets/scss/_resume.scss */
+  /* line 27, resume/assets/scss/_resume.scss */
   #resume:before {
     content: "";
     content: "";
@@ -2006,66 +2006,66 @@ body.modal-active {
     z-index: -1;
     left: 0;
     transform: translateX(-300px); }
-    /* line 58, personaCV/assets/scss/_variables.scss */
+    /* line 58, resume/assets/scss/_variables.scss */
     .theme-light #resume:before {
       background-color: #fff; }
-    /* line 58, personaCV/assets/scss/_variables.scss */
+    /* line 58, resume/assets/scss/_variables.scss */
     .theme-dark #resume:before {
       background-color: #000; }
-  /* line 42, personaCV/assets/scss/_resume.scss */
+  /* line 42, resume/assets/scss/_resume.scss */
   #resume .item .img-blog {
     overflow: hidden;
     position: relative;
     max-height: 250px; }
-  /* line 47, personaCV/assets/scss/_resume.scss */
+  /* line 47, resume/assets/scss/_resume.scss */
   #resume .item > div {
     border: 1px solid #bbb;
     box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.1);
     padding: 20px;
     display: flex;
     flex-direction: column; }
-    /* line 58, personaCV/assets/scss/_variables.scss */
+    /* line 58, resume/assets/scss/_variables.scss */
     .theme-light #resume .item > div {
       background-color: #fff; }
-    /* line 58, personaCV/assets/scss/_variables.scss */
+    /* line 58, resume/assets/scss/_variables.scss */
     .theme-dark #resume .item > div {
       background-color: #000; }
-  /* line 57, personaCV/assets/scss/_resume.scss */
+  /* line 57, resume/assets/scss/_resume.scss */
   #resume .item h3 {
     margin-bottom: 30px;
     font-size: 20px;
     font-weight: 400; }
-    /* line 58, personaCV/assets/scss/_variables.scss */
+    /* line 58, resume/assets/scss/_variables.scss */
     .theme-light #resume .item h3 {
       color: #000; }
-    /* line 58, personaCV/assets/scss/_variables.scss */
+    /* line 58, resume/assets/scss/_variables.scss */
     .theme-dark #resume .item h3 {
       color: #fff; }
-  /* line 65, personaCV/assets/scss/_resume.scss */
+  /* line 65, resume/assets/scss/_resume.scss */
   #resume .item .date {
     color: #afafaf; }
-  /* line 68, personaCV/assets/scss/_resume.scss */
+  /* line 68, resume/assets/scss/_resume.scss */
   #resume .item .blog-info {
     margin-top: 20px; }
-  /* line 72, personaCV/assets/scss/_resume.scss */
+  /* line 72, resume/assets/scss/_resume.scss */
   #resume p {
     margin: 0px 0; }
-    /* line 58, personaCV/assets/scss/_variables.scss */
+    /* line 58, resume/assets/scss/_variables.scss */
     .theme-light #resume p {
       color: #525252; }
-    /* line 58, personaCV/assets/scss/_variables.scss */
+    /* line 58, resume/assets/scss/_variables.scss */
     .theme-dark #resume p {
       color: #d3d3d3; }
-  /* line 78, personaCV/assets/scss/_resume.scss */
+  /* line 78, resume/assets/scss/_resume.scss */
   #resume h2 {
     font-weight: 700; }
-    /* line 58, personaCV/assets/scss/_variables.scss */
+    /* line 58, resume/assets/scss/_variables.scss */
     .theme-light #resume h2 {
       color: #000; }
-    /* line 58, personaCV/assets/scss/_variables.scss */
+    /* line 58, resume/assets/scss/_variables.scss */
     .theme-dark #resume h2 {
       color: #fff; }
-  /* line 85, personaCV/assets/scss/_resume.scss */
+  /* line 85, resume/assets/scss/_resume.scss */
   #resume .block-title i {
     background: #a644e7;
     width: 42px;
@@ -2077,26 +2077,26 @@ body.modal-active {
     vertical-align: middle;
     margin-right: 8px;
     transition-duration: 0.3s; }
-    /* line 58, personaCV/assets/scss/_variables.scss */
+    /* line 58, resume/assets/scss/_variables.scss */
     .theme-light #resume .block-title i {
       color: var(--bs-body-color); }
-    /* line 58, personaCV/assets/scss/_variables.scss */
+    /* line 58, resume/assets/scss/_variables.scss */
     .theme-dark #resume .block-title i {
       color: var(--bs-white); }
-  /* line 101, personaCV/assets/scss/_resume.scss */
+  /* line 101, resume/assets/scss/_resume.scss */
   #resume h3 {
     display: inline-block;
     position: relative;
     margin: 0 0 32px;
     padding: 0;
     font-size: 24px; }
-    /* line 58, personaCV/assets/scss/_variables.scss */
+    /* line 58, resume/assets/scss/_variables.scss */
     .theme-light #resume h3 {
       color: var(--bs-body-color); }
-    /* line 58, personaCV/assets/scss/_variables.scss */
+    /* line 58, resume/assets/scss/_variables.scss */
     .theme-dark #resume h3 {
       color: var(--bs-white); }
-    /* line 110, personaCV/assets/scss/_resume.scss */
+    /* line 110, resume/assets/scss/_resume.scss */
     #resume h3:after {
       content: "";
       width: 100%;
@@ -2105,10 +2105,10 @@ body.modal-active {
       display: block;
       opacity: 0.8;
       margin: -1px 0 0 0px; }
-  /* line 120, personaCV/assets/scss/_resume.scss */
+  /* line 120, resume/assets/scss/_resume.scss */
   #resume h4 {
     color: #a644e7; }
-  /* line 123, personaCV/assets/scss/_resume.scss */
+  /* line 123, resume/assets/scss/_resume.scss */
   #resume h5.section-description {
     display: inline-block;
     position: relative;
@@ -2119,13 +2119,13 @@ body.modal-active {
     font-weight: 200;
     text-align: center;
     z-index: 2; }
-    /* line 58, personaCV/assets/scss/_variables.scss */
+    /* line 58, resume/assets/scss/_variables.scss */
     .theme-light #resume h5.section-description {
       color: var(--bs-body-color); }
-    /* line 58, personaCV/assets/scss/_variables.scss */
+    /* line 58, resume/assets/scss/_variables.scss */
     .theme-dark #resume h5.section-description {
       color: var(--bs-white); }
-  /* line 137, personaCV/assets/scss/_resume.scss */
+  /* line 137, resume/assets/scss/_resume.scss */
   #resume .event-description {
     margin: 0 0 4px;
     font-size: 12px;
@@ -2133,13 +2133,13 @@ body.modal-active {
     line-height: 1.45em;
     margin-bottom: 10px;
     display: block; }
-    /* line 58, personaCV/assets/scss/_variables.scss */
+    /* line 58, resume/assets/scss/_variables.scss */
     .theme-light #resume .event-description {
       color: #525252; }
-    /* line 58, personaCV/assets/scss/_variables.scss */
+    /* line 58, resume/assets/scss/_variables.scss */
     .theme-dark #resume .event-description {
       color: #a5a5a5; }
-  /* line 149, personaCV/assets/scss/_resume.scss */
+  /* line 149, resume/assets/scss/_resume.scss */
   #resume .timeline-event {
     position: relative;
     padding-left: 20px;
@@ -2147,17 +2147,17 @@ body.modal-active {
     opacity: 0.7;
     transition: all 0.5s;
     height: 97%; }
-    /* line 158, personaCV/assets/scss/_resume.scss */
+    /* line 158, resume/assets/scss/_resume.scss */
     #resume .timeline-event:hover {
       opacity: 1; }
-    /* line 161, personaCV/assets/scss/_resume.scss */
+    /* line 161, resume/assets/scss/_resume.scss */
     #resume .timeline-event:hover:before {
       animation: circle 1.2s  infinite;
       -webkit-animation: circle 1.2s  infinite;
       -moz-animation: circle 1.2s  infinite;
       -o-animation: circle 1.2s  infinite;
       -ms-animation: circle 1.2s  infinite; }
-    /* line 164, personaCV/assets/scss/_resume.scss */
+    /* line 164, resume/assets/scss/_resume.scss */
     #resume .timeline-event:before {
       content: "";
       display: block;
@@ -2169,15 +2169,15 @@ body.modal-active {
       left: 3px;
       z-index: 1;
       margin: 8px 0 0 0; }
-      /* line 58, personaCV/assets/scss/_variables.scss */
+      /* line 58, resume/assets/scss/_variables.scss */
       .theme-light #resume .timeline-event:before {
         background-color: #000;
         border: 3px solid #000; }
-      /* line 58, personaCV/assets/scss/_variables.scss */
+      /* line 58, resume/assets/scss/_variables.scss */
       .theme-dark #resume .timeline-event:before {
         background-color: #fff;
         border: 3px solid #fff; }
-    /* line 58, personaCV/assets/scss/_variables.scss */
+    /* line 58, resume/assets/scss/_variables.scss */
     .theme-light #resume .timeline-event:after {
       --h: 100%;
       --c: #fff;
@@ -2191,7 +2191,7 @@ body.modal-active {
       background-color: var(#000, #444);
       bottom: -15px;
       left: 5px; }
-    /* line 58, personaCV/assets/scss/_variables.scss */
+    /* line 58, resume/assets/scss/_variables.scss */
     .theme-dark #resume .timeline-event:after {
       --h: 100%;
       --c: #fff;
@@ -2205,43 +2205,43 @@ body.modal-active {
       background-color: var(#fff, #444);
       bottom: -15px;
       left: 5px; }
-    /* line 201, personaCV/assets/scss/_resume.scss */
+    /* line 201, resume/assets/scss/_resume.scss */
     #resume .timeline-event.te-primary:nth-child(3) {
       padding-bottom: 10px; }
-      /* line 203, personaCV/assets/scss/_resume.scss */
+      /* line 203, resume/assets/scss/_resume.scss */
       #resume .timeline-event.te-primary:nth-child(3):after {
         opacity: 0;
         animation-delay: 2s; }
-      /* line 207, personaCV/assets/scss/_resume.scss */
+      /* line 207, resume/assets/scss/_resume.scss */
       #resume .timeline-event.te-primary:nth-child(3):before {
         animation: circle 2s 4s forwards;
         -webkit-animation: circle 2s 4s forwards;
         -moz-animation: circle 2s 4s forwards;
         -o-animation: circle 2s 4s forwards;
         -ms-animation: circle 2s 4s forwards; }
-    /* line 212, personaCV/assets/scss/_resume.scss */
+    /* line 212, resume/assets/scss/_resume.scss */
     #resume .timeline-event:nth-child(2):after {
       opacity: 0;
       animation-delay: 4s; }
-    /* line 216, personaCV/assets/scss/_resume.scss */
+    /* line 216, resume/assets/scss/_resume.scss */
     #resume .timeline-event:nth-child(2):before {
       animation: circle 2s 6s forwards;
       -webkit-animation: circle 2s 6s forwards;
       -moz-animation: circle 2s 6s forwards;
       -o-animation: circle 2s 6s forwards;
       -ms-animation: circle 2s 6s forwards; }
-    /* line 221, personaCV/assets/scss/_resume.scss */
+    /* line 221, resume/assets/scss/_resume.scss */
     #resume .timeline-event:nth-child(1):after {
       opacity: 0;
       animation-delay: 6s; }
-    /* line 225, personaCV/assets/scss/_resume.scss */
+    /* line 225, resume/assets/scss/_resume.scss */
     #resume .timeline-event:nth-child(1):before {
       animation: circle 2s 8s forwards;
       -webkit-animation: circle 2s 8s forwards;
       -moz-animation: circle 2s 8s forwards;
       -o-animation: circle 2s 8s forwards;
       -ms-animation: circle 2s 8s forwards; }
-  /* line 58, personaCV/assets/scss/_variables.scss */
+  /* line 58, resume/assets/scss/_variables.scss */
   .theme-light #resume.animationResume .timeline-event:after {
     --h: 100%;
     --c: #fff;
@@ -2258,7 +2258,7 @@ body.modal-active {
     animation-name: var(--animation, move-me-up);
     animation-duration: 2s;
     animation-fill-mode: forwards; }
-  /* line 58, personaCV/assets/scss/_variables.scss */
+  /* line 58, resume/assets/scss/_variables.scss */
   .theme-dark #resume.animationResume .timeline-event:after {
     --h: 100%;
     --c: #fff;
@@ -2275,7 +2275,7 @@ body.modal-active {
     animation-name: var(--animation, move-me-up);
     animation-duration: 2s;
     animation-fill-mode: forwards; }
-  /* line 255, personaCV/assets/scss/_resume.scss */
+  /* line 255, resume/assets/scss/_resume.scss */
   #resume .event-date {
     display: inline-block;
     position: relative;
@@ -2285,56 +2285,56 @@ body.modal-active {
     margin: 0 0 3px;
     padding: 8px 8px 5px 8px;
     font-size: 18px; }
-  /* line 266, personaCV/assets/scss/_resume.scss */
+  /* line 266, resume/assets/scss/_resume.scss */
   #resume .event-name {
     margin: 0px 0 3px;
     font-size: 20px; }
-  /* line 270, personaCV/assets/scss/_resume.scss */
+  /* line 270, resume/assets/scss/_resume.scss */
   #resume section {
     max-width: 1400px;
     margin: 0 auto; }
-  /* line 58, personaCV/assets/scss/_variables.scss */
+  /* line 58, resume/assets/scss/_variables.scss */
   .theme-light #resume label {
     color: var(--bs-body-color); }
-  /* line 58, personaCV/assets/scss/_variables.scss */
+  /* line 58, resume/assets/scss/_variables.scss */
   .theme-dark #resume label {
     color: var(--bs-white); }
 
-/* line 281, personaCV/assets/scss/_resume.scss */
+/* line 281, resume/assets/scss/_resume.scss */
 #innerBlog {
   flex-direction: column;
   height: inherit;
   margin-top: 30px; }
-  /* line 285, personaCV/assets/scss/_resume.scss */
+  /* line 285, resume/assets/scss/_resume.scss */
   #innerBlog .bread {
     margin-bottom: 30px; }
-  /* line 288, personaCV/assets/scss/_resume.scss */
+  /* line 288, resume/assets/scss/_resume.scss */
   #innerBlog .main {
     max-width: 800px;
     margin: 0 auto;
     padding: 40px; }
-    /* line 292, personaCV/assets/scss/_resume.scss */
+    /* line 292, resume/assets/scss/_resume.scss */
     #innerBlog .main .img-blog {
       overflow: hidden;
       margin-bottom: 20px; }
-      /* line 295, personaCV/assets/scss/_resume.scss */
+      /* line 295, resume/assets/scss/_resume.scss */
       #innerBlog .main .img-blog img {
         width: 100%; }
-    /* line 300, personaCV/assets/scss/_resume.scss */
+    /* line 300, resume/assets/scss/_resume.scss */
     #innerBlog .main .blog-info p {
       margin: 0 0 5px 0; }
-    /* line 304, personaCV/assets/scss/_resume.scss */
+    /* line 304, resume/assets/scss/_resume.scss */
     #innerBlog .main h1 {
       margin-top: 40px;
       margin-bottom: 40px;
       font-size: 35px; }
-    /* line 309, personaCV/assets/scss/_resume.scss */
+    /* line 309, resume/assets/scss/_resume.scss */
     #innerBlog .main h2 {
       margin-bottom: 20px; }
-    /* line 312, personaCV/assets/scss/_resume.scss */
+    /* line 312, resume/assets/scss/_resume.scss */
     #innerBlog .main .block {
       margin-bottom: 45px; }
-    /* line 315, personaCV/assets/scss/_resume.scss */
+    /* line 315, resume/assets/scss/_resume.scss */
     #innerBlog .main p {
       line-height: 1.8;
       margin: 0 0 1.8rem;
@@ -2342,26 +2342,26 @@ body.modal-active {
       color: #444444; }
 
 /* #contact section */
-/* line 3, personaCV/assets/scss/_contact.scss */
+/* line 3, resume/assets/scss/_contact.scss */
 #contact {
   position: relative;
   padding: 100px 0;
   font-size: 12px; }
-  /* line 58, personaCV/assets/scss/_variables.scss */
+  /* line 58, resume/assets/scss/_variables.scss */
   .theme-light #contact h2, .theme-light
   #contact h3 {
     color: #000; }
-  /* line 58, personaCV/assets/scss/_variables.scss */
+  /* line 58, resume/assets/scss/_variables.scss */
   .theme-dark #contact h2, .theme-dark
   #contact h3 {
     color: var(--bs-white); }
-  /* line 13, personaCV/assets/scss/_contact.scss */
+  /* line 13, resume/assets/scss/_contact.scss */
   #contact p {
     color: #bbb; }
-  /* line 16, personaCV/assets/scss/_contact.scss */
+  /* line 16, resume/assets/scss/_contact.scss */
   #contact #google-map {
     width: 100%; }
-  /* line 19, personaCV/assets/scss/_contact.scss */
+  /* line 19, resume/assets/scss/_contact.scss */
   #contact:after {
     content: "";
     width: 100%;
@@ -2371,13 +2371,13 @@ body.modal-active {
     top: 0;
     z-index: -1;
     left: 0; }
-    /* line 58, personaCV/assets/scss/_variables.scss */
+    /* line 58, resume/assets/scss/_variables.scss */
     .theme-light #contact:after {
       background-color: #fff; }
-    /* line 58, personaCV/assets/scss/_variables.scss */
+    /* line 58, resume/assets/scss/_variables.scss */
     .theme-dark #contact:after {
       background-color: #000; }
-  /* line 32, personaCV/assets/scss/_contact.scss */
+  /* line 32, resume/assets/scss/_contact.scss */
   #contact:before {
     content: "";
     content: "";
@@ -2388,28 +2388,28 @@ body.modal-active {
     z-index: -1;
     left: 0;
     transform: translateX(-300px); }
-    /* line 58, personaCV/assets/scss/_variables.scss */
+    /* line 58, resume/assets/scss/_variables.scss */
     .theme-light #contact:before {
       background-color: #fff; }
-    /* line 58, personaCV/assets/scss/_variables.scss */
+    /* line 58, resume/assets/scss/_variables.scss */
     .theme-dark #contact:before {
       background-color: #000; }
 
-/* line 48, personaCV/assets/scss/_contact.scss */
+/* line 48, resume/assets/scss/_contact.scss */
 #contact,
 button,
 input {
   font-weight: 700;
   letter-spacing: 1.4px; }
 
-/* line 55, personaCV/assets/scss/_contact.scss */
+/* line 55, resume/assets/scss/_contact.scss */
 .screen {
   position: relative;
   background: #101010;
   border-radius: 15px;
   max-height: 600px; }
 
-/* line 62, personaCV/assets/scss/_contact.scss */
+/* line 62, resume/assets/scss/_contact.scss */
 .screen:after {
   content: "";
   display: block;
@@ -2422,7 +2422,7 @@ input {
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
   z-index: -1; }
 
-/* line 75, personaCV/assets/scss/_contact.scss */
+/* line 75, resume/assets/scss/_contact.scss */
 .screen-header {
   display: flex;
   align-items: center;
@@ -2431,11 +2431,11 @@ input {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px; }
 
-/* line 84, personaCV/assets/scss/_contact.scss */
+/* line 84, resume/assets/scss/_contact.scss */
 .screen-header-left {
   margin-right: auto; }
 
-/* line 88, personaCV/assets/scss/_contact.scss */
+/* line 88, resume/assets/scss/_contact.scss */
 .screen-header-button {
   display: inline-block;
   width: 8px;
@@ -2444,23 +2444,23 @@ input {
   border-radius: 8px;
   background: white; }
 
-/* line 97, personaCV/assets/scss/_contact.scss */
+/* line 97, resume/assets/scss/_contact.scss */
 .screen-header-button.close {
   background: #ed1c6f; }
 
-/* line 101, personaCV/assets/scss/_contact.scss */
+/* line 101, resume/assets/scss/_contact.scss */
 .screen-header-button.maximize {
   background: #e8e925; }
 
-/* line 105, personaCV/assets/scss/_contact.scss */
+/* line 105, resume/assets/scss/_contact.scss */
 .screen-header-button.minimize {
   background: #74c54f; }
 
-/* line 109, personaCV/assets/scss/_contact.scss */
+/* line 109, resume/assets/scss/_contact.scss */
 .screen-header-right {
   display: flex; }
 
-/* line 113, personaCV/assets/scss/_contact.scss */
+/* line 113, resume/assets/scss/_contact.scss */
 .screen-header-ellipsis {
   width: 3px;
   height: 3px;
@@ -2468,34 +2468,34 @@ input {
   border-radius: 8px;
   background: #999; }
 
-/* line 121, personaCV/assets/scss/_contact.scss */
+/* line 121, resume/assets/scss/_contact.scss */
 .screen-body {
   display: flex; }
 
-/* line 125, personaCV/assets/scss/_contact.scss */
+/* line 125, resume/assets/scss/_contact.scss */
 .screen-body-item {
   flex: 1;
   padding: 50px; }
 
-/* line 130, personaCV/assets/scss/_contact.scss */
+/* line 130, resume/assets/scss/_contact.scss */
 .screen-body-item.left {
   display: flex;
   flex-direction: column; }
 
-/* line 135, personaCV/assets/scss/_contact.scss */
+/* line 135, resume/assets/scss/_contact.scss */
 .app-title {
   display: flex;
   flex-direction: column;
   position: relative;
   font-size: 26px; }
-  /* line 58, personaCV/assets/scss/_variables.scss */
+  /* line 58, resume/assets/scss/_variables.scss */
   .theme-light .app-title {
     color: var(--bs-body-color); }
-  /* line 58, personaCV/assets/scss/_variables.scss */
+  /* line 58, resume/assets/scss/_variables.scss */
   .theme-dark .app-title {
     color: var(--bs-white); }
 
-/* line 145, personaCV/assets/scss/_contact.scss */
+/* line 145, resume/assets/scss/_contact.scss */
 .app-title:after {
   content: "";
   display: block;
@@ -2506,26 +2506,26 @@ input {
   height: 4px;
   background-color: #a644e7; }
 
-/* line 156, personaCV/assets/scss/_contact.scss */
+/* line 156, resume/assets/scss/_contact.scss */
 .app-contact {
   margin-top: auto;
   font-size: 8px;
   color: #888; }
 
-/* line 162, personaCV/assets/scss/_contact.scss */
+/* line 162, resume/assets/scss/_contact.scss */
 .app-form-group {
   margin-bottom: 15px; }
 
-/* line 166, personaCV/assets/scss/_contact.scss */
+/* line 166, resume/assets/scss/_contact.scss */
 .app-form-group.message {
   margin-top: 40px; }
 
-/* line 170, personaCV/assets/scss/_contact.scss */
+/* line 170, resume/assets/scss/_contact.scss */
 .app-form-group.buttons {
   margin-bottom: 0;
   text-align: right; }
 
-/* line 175, personaCV/assets/scss/_contact.scss */
+/* line 175, resume/assets/scss/_contact.scss */
 .app-form-control {
   width: 100%;
   padding: 10px 0;
@@ -2538,15 +2538,15 @@ input {
   outline: none;
   transition: border-color 0.2s; }
 
-/* line 188, personaCV/assets/scss/_contact.scss */
+/* line 188, resume/assets/scss/_contact.scss */
 .app-form-control::placeholder {
   color: #666; }
 
-/* line 192, personaCV/assets/scss/_contact.scss */
+/* line 192, resume/assets/scss/_contact.scss */
 .app-form-control:focus {
   border-bottom-color: #ddd; }
 
-/* line 196, personaCV/assets/scss/_contact.scss */
+/* line 196, resume/assets/scss/_contact.scss */
 .app-form-button {
   background: none;
   border: none;
@@ -2555,11 +2555,11 @@ input {
   cursor: pointer;
   outline: none; }
 
-/* line 205, personaCV/assets/scss/_contact.scss */
+/* line 205, resume/assets/scss/_contact.scss */
 .app-form-button:hover {
   color: #b9134f; }
 
-/* line 209, personaCV/assets/scss/_contact.scss */
+/* line 209, resume/assets/scss/_contact.scss */
 .credits {
   display: flex;
   justify-content: center;
@@ -2569,7 +2569,7 @@ input {
   font-size: 16px;
   font-weight: normal; }
 
-/* line 219, personaCV/assets/scss/_contact.scss */
+/* line 219, resume/assets/scss/_contact.scss */
 .credits-link {
   display: flex;
   align-items: center;
@@ -2577,33 +2577,33 @@ input {
   font-weight: bold;
   text-decoration: none; }
 
-/* line 227, personaCV/assets/scss/_contact.scss */
+/* line 227, resume/assets/scss/_contact.scss */
 .dribbble {
   width: 20px;
   height: 20px;
   margin: 0 5px; }
 
 @media screen and (max-width: 520px) {
-  /* line 234, personaCV/assets/scss/_contact.scss */
+  /* line 234, resume/assets/scss/_contact.scss */
   .screen-body {
     flex-direction: column; }
-  /* line 238, personaCV/assets/scss/_contact.scss */
+  /* line 238, resume/assets/scss/_contact.scss */
   .screen-body-item.left {
     margin-bottom: 30px; }
-  /* line 242, personaCV/assets/scss/_contact.scss */
+  /* line 242, resume/assets/scss/_contact.scss */
   .app-title {
     flex-direction: row; }
-  /* line 246, personaCV/assets/scss/_contact.scss */
+  /* line 246, resume/assets/scss/_contact.scss */
   .app-title span {
     margin-right: 12px; }
-  /* line 250, personaCV/assets/scss/_contact.scss */
+  /* line 250, resume/assets/scss/_contact.scss */
   .app-title:after {
     display: none; } }
 
 @media screen and (max-width: 600px) {
-  /* line 256, personaCV/assets/scss/_contact.scss */
+  /* line 256, resume/assets/scss/_contact.scss */
   .screen-body {
     padding: 40px; }
-  /* line 260, personaCV/assets/scss/_contact.scss */
+  /* line 260, resume/assets/scss/_contact.scss */
   .screen-body-item {
     padding: 0; } }
